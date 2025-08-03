@@ -7,10 +7,10 @@ resource "aws_instance" "name" {
 }
 
 resource "aws_vpc" "name" {
-    
+    cidr_block = "10.0.0.0/24"
   
 }
 
 resource "aws_vpc" "name2" {
-  cidr_block = "10.0.0.0/24"
+  
 }
