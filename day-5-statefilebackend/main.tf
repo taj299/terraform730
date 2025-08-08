@@ -8,11 +8,11 @@ resource "aws_instance" "name" {
 
 resource "aws_vpc" "name" {
 
-    cidr_block = "10.0.0.0/16"
+   
     
 }
 
-resource "aws_vpc" "name2" {
-    
+resource "aws_vpc" "namevpc2" {
+     cidr_block = "10.0.0.0/24"
   
 }
